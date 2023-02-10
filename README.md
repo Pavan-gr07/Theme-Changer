@@ -1,1 +1,1 @@
-# Theme-Changer
+# Theme-Switcher
