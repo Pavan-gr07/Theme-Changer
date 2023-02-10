@@ -1,0 +1,56 @@
+/* *******  */
+/*  common  */
+/* *******  */
+*{
+    box-sizing: border-box;
+
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    max-width: 500px;
+    margin:0 auto;
+    padding:0 30px;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+    
+}
+a:hover{
+    opacity:.9;
+}
+a:active{
+    opacity:1;
+}
+
+/* *******  */
+/*  header  */
+/* *******  */
+button{
+    /* display: flex; */
+    display: inline-block;
+    background-color: #eee;
+    padding: 20px;
+    margin-top: 50px;
+    border: 1px solid #969696;
+    border-radius: 20px;
+    color: grey}
+
+#heading{
+   align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   text-align: center;
+}
+
+p{
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
